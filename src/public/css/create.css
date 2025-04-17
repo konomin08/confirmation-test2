@@ -1,0 +1,224 @@
+.header {
+    background: white;
+  }
+  
+  .header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+  }
+  
+  .header__logo {
+    color: #F5C800;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: jsMath-cmti10;
+  }
+  
+  .contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+  }
+  
+  .contact-form__heading {
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  
+  .form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+  }
+  
+  .form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background: #fafafa;
+    color: #aaa;
+  }
+  
+  .form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+  }
+  
+  .form__input--text input,
+  .form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  
+    appearance: none;
+  }
+  
+  .form__input--text input {
+    height: 40px;
+  }
+  
+  .form__input--textarea textarea {
+    height: 180px;
+  }
+  
+  .form__button {
+    margin-top: 30px;
+  }
+  
+  .form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .contact-form__header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  .contact-form__title {
+    margin: 0;
+  }
+  
+
+  .add-product-button {
+    padding: 8px 16px;
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  body {
+    background: #F8F8F8;
+  }
+
+  .form__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .form__label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .form__input,
+  .form__textarea {
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .form__input::placeholder,
+  .form__textarea::placeholder {
+    color: gray;
+  }
+  
+  .season__group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .season__group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+  }
+  
+  .form__button-submit {
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .sort-options {
+    margin-top: 20px;
+  }
+
+  .sort-tag {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .sort-tag button {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 240px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 14.5px 10px 14.5px 10px;
+    box-sizing: border-box;
+  }
+  
+  .search-button {
+    width: 240px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #F5C800;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .required-badge {
+    display: inline-block;
+    width: 24px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 5px;
+    margin-left: 10px;
+    background-color: #FD0707;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 3px;
+  }
