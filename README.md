@@ -14,7 +14,7 @@ php artisan key:generate
 1.php artisan migrate
 
 シーディングの実行
-1.docker-compose exec app php artisan db:seed
+1.php artisan db:seed
 
 ## 使用技術(実行環境)
 ・PHP: 8.x
