@@ -11,7 +11,7 @@ Dockerのビルド
 php artisan key:generate
 
 マイグレーションの実行
-1.docker-compose exec app php artisan migrate
+1.php artisan migrate
 
 シーディングの実行
 1.docker-compose exec app php artisan db:seed
