@@ -48,7 +48,7 @@
         <!-- 並び替え条件タグの表示 -->
         @if ($sort)
             <div class="sort-tag">
-                <span>並び替え: 
+                <span>並び替え:
                     <strong>{{ $sort == 'desc' ? '高い順' : '低い順' }}</strong>
                     <button onclick="window.location.href='{{ route('index') }}'">×</button>
                 </span>
